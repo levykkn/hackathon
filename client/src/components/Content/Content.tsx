@@ -12,7 +12,7 @@ const Content: React.FC = () => {
           w="90%"
           />
         </Box>
-        <Flex direction="column" w="100%" h="100%" p="5" justify="space-between">
+        <Flex direction="column" w="100%" h="90%" p="5" justify="space-between">
           <Box>
             <Heading as="h1" pb="2">
               Fast charging batteries will change the future
@@ -23,7 +23,7 @@ const Content: React.FC = () => {
               brighter tomorrow
             </Heading>
           </Box>
-          <Button colorScheme="teal" variant="outline">
+          <Button colorScheme="teal" variant="outline" >
             Get in touch
           </Button>
         </Flex>

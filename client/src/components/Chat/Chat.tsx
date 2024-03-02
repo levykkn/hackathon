@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box, Input, Button, Spinner } from '@chakra-ui/react';
+import { Flex, Box, Input, Button, Spinner, Text } from '@chakra-ui/react';
 import { useChat } from '../../hooks/useChat';
 import  BotMessage  from './BotMessage'
 import  UserMessage  from './UserMessage'
@@ -23,6 +23,9 @@ const Chat: React.FC = () => {
      direction="column" 
      align='center'
      >
+      <Text
+      fontSize="50px"
+      >Have more questions? Ask our trained AI assistant!</Text>
       <Box
         ref={chatContainerRef}
         flex="1"
