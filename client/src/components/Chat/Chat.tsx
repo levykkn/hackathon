@@ -17,7 +17,7 @@ const Chat: React.FC = () => {
   } = useChat();
 
   return (
-    <Flex w="60%" h="100%" direction="column">
+    <Flex w="100wh" h="100vh" direction="column">
       <Box
         ref={chatContainerRef}
         flex="1"
