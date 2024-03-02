@@ -49,7 +49,8 @@ export const BotMessage: React.FC<BotMessageProps> = ({message}) => {
                               "avatar text"`}
           >
           <GridItem area={'avatar'}>
-          <Avatar my={0.5}/>
+          <Avatar my={0.5}
+          src='/svgexport-32.svg'/>
           </GridItem>
           <GridItem pl={3} area={'navbar'} >
           <Text>Nyobolt Support</Text>
