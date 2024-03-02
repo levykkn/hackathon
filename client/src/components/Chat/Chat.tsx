@@ -21,13 +21,13 @@ const Chat: React.FC = () => {
      w="100wh" 
      h="100vh" 
      direction="column" 
-     p="5%"
+     align='center'
      >
       <Box
         ref={chatContainerRef}
         flex="1"
         overflow="auto"
-        w="100%"
+        w="90%"
         maxHeight="100%"
         mb="2"
       >
@@ -41,19 +41,19 @@ const Chat: React.FC = () => {
           ))
         }
       </Box>
-      <Flex pb="6">
+      <Flex pb="6" width="90%">
         <Input
           value={currentMessage}
           onChange={(e) => setCurrentMessage(e.target.value)}
           onKeyPress={handleKeyPress} // depreceated should be updated
           placeholder="Enter your question here!"
           _placeholder={{color: 'green.400'}}
-          focusBorderColor='green'
-          borderColor='green'
+          focusBorderColor='black.400'
+          borderColor='teal'
           bg="white"
           mr={2}
         />
-        <Button colorScheme="green" onClick={handleSendMessage}>
+        <Button colorScheme="teal" onClick={handleSendMessage}>
           {isLoading ? <Spinner size="sm" /> : <SendHorizontal />}
         </Button>
       </Flex>
