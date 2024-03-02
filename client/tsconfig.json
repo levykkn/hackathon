@@ -11,7 +11,7 @@
       "@components/*": ["components/*"],
       "@utils/*": ["utils/*"],
       "@hooks/*": ["hooks/*"],
-      "@screens/*": ["screens/*"],
+      "@screens/*": ["pages/*"],
       "@ui/*": ["ui/*"],
     },
     "allowJs": true,

@@ -4,7 +4,7 @@
   "description": "back end for hackathon project",
   "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/levykkn/hackathon/issues"
   },
-  "homepage": "https://github.com/levykkn/hackathon#readme"
+  "homepage": "https://github.com/levykkn/hackathon#readme",
+  "dependencies": {
+    "@types/pg": "^8.11.2",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.3"
+  }
 }
