@@ -3,7 +3,7 @@ import React from "react";
 
 const Content: React.FC = () => {
   return (
-    <Flex h="90%" w="100%" justifyContent="center" align="center">
+    <Flex h="100%" w="100%" justifyContent="center" align="center">
       <Flex w="90%" h="80%">
         <Box>
           <Image 
@@ -12,7 +12,7 @@ const Content: React.FC = () => {
           w="90%"
           />
         </Box>
-        <Flex direction="column" w="100%" p="5" justify="space-between">
+        <Flex direction="column" w="100%" h="100%" p="5" justify="space-between">
           <Box>
             <Heading as="h1" pb="5">
               Fast charging batteries will change the future
