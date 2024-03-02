@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
-import Home from '@screens/Home';
+import Home from './pages/Home';
 
 
 const App: React.FC = () => {
