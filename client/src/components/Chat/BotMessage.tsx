@@ -41,7 +41,7 @@ export const BotMessage: React.FC<BotMessageProps> = ({message}) => {
             boxShadow= "md"
             borderRadius="md"
             my={1}
-            bg= 'white'
+            bg= 'gray.100'
             color="gray.900"
           >
           <Grid
