@@ -8,15 +8,17 @@ const Content: React.FC = () => {
         <Box>
           <Image src="/main.jpeg" alt="Main Image" w="90%"/>
         </Box>
-        <Flex direction="column" w="100%" p="5">
-          <Heading as="h1">
-            Fast charging batteries will change the future
-          </Heading>
-          <Heading as="h6" size="xs">
-            Unlocking the potential of recharging batteries to deliver a
-            sustainable and clean energy solution, powering a greener and
-            brighter tomorrow
-          </Heading>
+        <Flex direction="column" w="100%" p="5" justify="space-between">
+          <Box>
+            <Heading as="h1" pb="5">
+              Fast charging batteries will change the future
+            </Heading>
+            <Heading as="h6" size="xs" pb="5">
+              Unlocking the potential of recharging batteries to deliver a
+              sustainable and clean energy solution, powering a greener and
+              brighter tomorrow
+            </Heading>
+          </Box>
           <Button colorScheme="teal" variant="outline">
             Get in touch
           </Button>
