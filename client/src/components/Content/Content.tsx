@@ -8,7 +8,7 @@ const Content: React.FC = () => {
         <Box>
           <Image src="/main.jpeg" alt="Main Image" w="90%"/>
         </Box>
-        <Flex direction="column" w="100%">
+        <Flex direction="column" w="100%" p="5">
           <Heading as="h1">
             Fast charging batteries will change the future
           </Heading>

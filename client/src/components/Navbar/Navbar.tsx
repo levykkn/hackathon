@@ -5,7 +5,7 @@ import Logo from "src/ui/Images/Logo";
 
 const Navbar: React.FC = () => {
   return (
-    <Flex h="10%" w="100%">
+    <Flex h="10%" w="100%" justify="center">
       <Flex justifyContent="space-between" w="90%" pt="6" align="center">
         <Box w="30%">
           <Image as={Logo} objectFit="contain" h="50%" w="10%" />
