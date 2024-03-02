@@ -52,7 +52,7 @@ export const BotMessage: React.FC<BotMessageProps> = ({message}) => {
           <Avatar my={0.5}/>
           </GridItem>
           <GridItem pl={3} area={'navbar'} >
-          <Text>AI</Text>
+          <Text>Nyobolt Support</Text>
           </GridItem>
           <GridItem pl={3} pt={2.5} area={'text'}>
             {typingAnimation ? displayContent : content}

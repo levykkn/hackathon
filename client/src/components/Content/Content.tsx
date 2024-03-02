@@ -6,7 +6,11 @@ const Content: React.FC = () => {
     <Flex h="90%" w="100%" justifyContent="center" align="center">
       <Flex w="90%" h="80%">
         <Box>
-          <Image src="/main.jpeg" alt="Main Image" w="90%"/>
+          <Image 
+          src="/main.jpeg" 
+          alt="Main Image" 
+          w="90%"
+          />
         </Box>
         <Flex direction="column" w="100%" p="5">
           <Heading as="h1">
