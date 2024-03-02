@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 const Content: React.FC = () => {
@@ -14,10 +14,10 @@ const Content: React.FC = () => {
         </Box>
         <Flex direction="column" w="100%" h="100%" p="5" justify="space-between">
           <Box>
-            <Heading as="h1" pb="5">
+            <Heading as="h1" pb="2">
               Fast charging batteries will change the future
             </Heading>
-            <Heading as="h6" size="xs" pb="5">
+            <Heading as="h6" size="xs" >
               Unlocking the potential of recharging batteries to deliver a
               sustainable and clean energy solution, powering a greener and
               brighter tomorrow
